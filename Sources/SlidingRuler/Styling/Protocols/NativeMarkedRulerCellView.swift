@@ -46,5 +46,6 @@ extension NativeMarkedRulerCellView {
                 .lineLimit(1)
         }
         .fixedSize()
+        .clipShape(cell.maskShape)
     }
 }

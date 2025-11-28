@@ -42,4 +42,6 @@ public struct BlankCenteredSlidingRulerStyle: SlidingRulerStyle {
     public func makeCursorBody() -> some View {
         NativeCursorBody()
     }
+	
+	public init() {}
 }
