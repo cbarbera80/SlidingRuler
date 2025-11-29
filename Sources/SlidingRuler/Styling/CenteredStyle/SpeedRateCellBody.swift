@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct SpeedRateBlankCellBody: NativeRulerCellView {
+struct SpeedRateBlankCellBody: NativeRulerCellView {
 	var mark: CGFloat
 	var bounds: ClosedRange<CGFloat>
 	var step: CGFloat
@@ -13,7 +13,7 @@ public struct SpeedRateBlankCellBody: NativeRulerCellView {
 	var scale: some ScaleView { CustomCenteredScaleView(width: cellWidth, tickSpacing: tickSpacing, tickColor: tickColor) }
 }
 
-public struct SpeedRateCellBody: NativeMarkedRulerCellView {
+struct SpeedRateCellBody: NativeMarkedRulerCellView {
 	var mark: CGFloat
 	var bounds: ClosedRange<CGFloat>
 	var step: CGFloat
